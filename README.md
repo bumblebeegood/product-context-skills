@@ -21,18 +21,6 @@ A Claude Code workspace that turns a product brief into **structured product con
 
    `--assume` lists every invented value in `OUTPUT/extract-assumptions.md` so you can review it.
 4. Review the result: `product-context/`, `users/`, `domain-entities/`, `Business-rules.md`, `workflows/`, `business-processes/`.
-5. Draft API stories for a user group:
-
-   ```
-   /draft-api-story --bulk users/<group>.md
-   ```
-
-   Claude proposes the story plan (title, method, resource per JTBD), waits for your OK, and writes one file per story to `OUTPUT/Draft/api-stories/`.
-6. Generate the spec:
-
-   ```
-   /design-api-spec
-   ```
 
 ## Workspace Layout
 
