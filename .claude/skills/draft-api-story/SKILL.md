@@ -6,7 +6,7 @@ license: MIT
 metadata:
   version: "1.1.0"
   author: "Illia Shapoval"
-  adapted-from: "https://github.com/paraskakis/skills/tree/main/api/design-api-stories by Emmanuel Paraskskis"
+  adapted-from: "https://github.com/paraskakis/skills/tree/main/api/design-api-stories by Emmanuel Paraskakis"
 ---
 
 # Draft API Story
