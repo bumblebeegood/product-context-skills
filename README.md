@@ -1,14 +1,7 @@
-# context2api
+# Structured Product Context skills
 
-A Claude Code workspace that turns a product brief into **structured product context**, then turns that context into **API design stories** and an **OpenAPI spec**.
+A Claude Code workspace that turns a product brief into **structured product context**, all skills are building files from structured context.
 
-```
-INPUTS/brief.md ──/extract-full──▶ product context ──/draft-api-story──▶ API stories ──/design-api-spec──▶ OpenAPI 3.1
-                                   (users, entities,
-                                    rules, workflows)
-```
-
-API stories are written from what users need to achieve (their JTBDs), not from database tables. Every attribute, rule and role a story uses comes from a context file you can review and correct.
 
 ## Requirements
 
@@ -70,7 +63,3 @@ The rules every agent follows are in [AGENTS.md](AGENTS.md).
 | `draft-api-story` | Drafts API design stories from the workspace context (`--bulk` for many) |
 | `backlog` | Maintains `OUTPUT/ticket-backlog.md` and creates Jira issues |
 | `confluence-sync` | Syncs Markdown files with Confluence pages |
-
-## Credits
-
-The API story method, the API standards, and the `design-api-story` and `design-api-spec` skills are by Emmanuel Paraskakis (Level 250), MIT-licensed. The workspace skills are by Illia Shapoval.
